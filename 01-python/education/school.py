@@ -1,3 +1,5 @@
+import numpy as np
+
 def draw_school():
-    print("school not found")
-    return
+    schools=["an elementary school", "a middle school", "a high school"];
+    print("This is {school}.".format(school=np.random.choice(schools)));
